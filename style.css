@@ -1,0 +1,229 @@
+body {
+    font-family: 'Quicksand', sans-serif;;
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    text-align: justify;
+    text-decoration: none;
+    background-color: #00bcd4;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    text-shadow: 4px 4px 3px #77f;
+    font-weight: bold;
+    font-size: 30px;
+}
+header {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.lambang-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.lambang-section img {
+    width: 150px;
+    height: auto;
+}
+
+.deskripsi {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: justify;
+}
+
+.informasi-lainnya {
+    background-color: #f2f2f2;
+    padding: 10px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.informasi-lainnya ul {
+    list-style: none;
+    padding: 0;
+}
+
+.informasi-lainnya ul li {
+    margin: 5px 0;  
+    
+}
+
+footer {
+    text-align: center;
+    background-color: #00bcd4;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+p{
+    text-align: justify;
+    text-indent: 24px;
+}
+img {
+    display: block;
+    width: 100%;         /* Menyesuaikan lebar gambar dengan lebar kontainer */
+    max-width: 550px;    /* Membatasi ukuran maksimum gambar */
+    height: auto;        /* Mempertahankan rasio aspek gambar */
+    margin: 10px auto;   /* Margin untuk pemisahan seragam */
+    border-top-width: 2px;
+}
+
+
+article{
+    background-color:rosybrown;
+    border: 1em;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+}
+figcaption {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.Box{
+    border-top-style: solid;
+    border-right-style: dotted;
+    border-bottom-style: groove;
+    border-left-style: double;
+
+    border-width: 4px;
+    border-color: red;
+    width: 400px;
+    height: 450px;
+    background-color: #77f;
+    border-width: 2px 1px 1px 2px;
+}
+.rounded {
+  width: 300px;
+  padding: 20px;
+  border: 4px solid deeppink;
+
+  border-radius: 10px;
+}
+#featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-position: center;
+    object-fit: cover;
+    
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 0px;
+   
+    border: 4px solid black;
+    padding: 10px;
+}
+
+.jumbotron {
+    font-size: 25px;
+    padding: 60px;
+    margin-top: 0px; /* Sesuaikan nilai ini agar berada di bawah .fixed-nav */
+    background-color: #00c8eb;
+    text-align: center;
+    color: white;
+  
+}
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #00c8eb; /* Sesuaikan warna latar belakang sesuai kebutuhan */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Tambahkan bayangan jika diperlukan */
+    text-align: center;
+    z-index: 1000; /* Agar menu berada di atas konten lain */
+}
+
+.fixed-nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.fixed-nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+    color: #00bcd4;
+}
+
+ nav {
+   background-color: #00a2c6;
+   padding: 5px;
+}   
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #00a2c6;
+  text-align: center;
+  font-weight: bold;
+}
+ 
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+ 
+  color: white;
+}
+ 
+nav a:hover {
+  font-weight: bold;
+}
+ 
+.profile header {
+  text-align: center;
+}
+.NORMAL{
+    background-color: #aaaa;
+    padding: 30px;
+}
+.RELATIVE{
+    background-color: #aaaa;
+    padding: 30px;
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+.ABSOLUTE {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+.cfg {
+  width: 800px;
+  border: 4px solid black;
+  padding: 10px;
+}
+
+#image-b {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
